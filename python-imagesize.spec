@@ -12,6 +12,7 @@ Group:		Development/Python
 Url:		https://pypi.python.org/pypi/imagesize
 BuildArch:	noarch
 BuildRequires:	python-setuptools
+BuildRequires:	python2-setuptools
 BuildRequires:	pkgconfig(python3)
 BuildRequires:	python3-distribute
 
