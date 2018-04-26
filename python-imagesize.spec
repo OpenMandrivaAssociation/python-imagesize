@@ -12,9 +12,11 @@ Group:		Development/Python
 Url:		https://pypi.python.org/pypi/imagesize
 BuildArch:	noarch
 BuildRequires:	python-setuptools
-BuildRequires:	python2-setuptools
-BuildRequires:	pkgconfig(python3)
+BuildRequires:	python-pkg-resources
 BuildRequires:	python3-distribute
+BuildRequires:	pkgconfig(python3)
+BuildRequires:	python2-setuptools
+BuildRequires:	python2-pkg-resources
 
 %description
 Python library for determining image sizes
