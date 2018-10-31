@@ -5,7 +5,7 @@ Summary:	Python library for determining image sizes
 
 Name:		python-imagesize
 Version:	1.0.0
-Release:	1
+Release:	2
 Source0:	https://files.pythonhosted.org/packages/c6/3f/1db2da33804e8d7ef3a868b27b7bdc1aae6a4f693f0162d2aeeaf503864f/imagesize-%{version}.tar.gz
 License:	BSD
 Group:		Development/Python
