@@ -1,9 +1,10 @@
 %define module imagesize
-%bcond tests 1
+# Tests need pytest, and pytest needs imagesize through Sphinx.
+%bcond tests 0
 
 Name:		python-imagesize
 Version:	2.0.0
-Release:	1
+Release:	2
 Summary:	Python module to analyze image file metadata, dimentions, DPI, etc
 License:	MIT
 Group:		Development/Python
